@@ -1,6 +1,6 @@
 # Monoprogramavel
 
-´´´python
+```python
 print("Simulador SO Monotarefa")
 #Linha para fazer a leitura do arquivo txt na área de trabalho
 with open('/Users/Usuario/Desktop/Mono.txt') as arquivo:
@@ -31,4 +31,4 @@ for a in range(4):
         #função para aguardar 1 segundo por volta
         time.sleep(1)
 
-´´´
+´´´´
