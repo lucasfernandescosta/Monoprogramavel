@@ -1,0 +1,4 @@
+p1 cpu 3
+p2 es 2
+p3 cpu 4
+p4 es 1
