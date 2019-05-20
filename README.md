@@ -55,6 +55,7 @@ with open('/Users/Usuario/Desktop/saida.txt', 'w') as arq:
     arq.write(str(acumES))
     arq.write('\nTempo de espera médio dos processos:')
     arq.write(str(tempMedio))
+    #Gráfico de gantt
     arq.write('es            -')
     arq.write('cpu      ----')
     arq.write('es     --')
