@@ -55,6 +55,10 @@ with open('/Users/Usuario/Desktop/saida.txt', 'w') as arq:
     arq.write(str(acumES))
     arq.write('\nTempo de espera médio dos processos:')
     arq.write(str(tempMedio))
+    arq.write('es            -')
+    arq.write('cpu      ----')
+    arq.write('es     --')
+    arq.write('cpu ---')
     #fechando o arquivo criado aberto
     arq.close()
 
