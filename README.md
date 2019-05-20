@@ -30,7 +30,7 @@ for a in range(4):
         print("Executando o processo: ",processos[a])
         print("Tipo do processo: ",tipoProcessos[a])
         print("Tempo estimado da execução: ",tempoProcesso[a])
-        print("Tempo restante: ", nums[a]-b)
+        print("Tempo restante: ", nums[a]-b,"segundo(s)")
         #Acumulador para contar o tempo total de todos os processos
         acumTotal = acumTotal + 1
         #Acumulador para contar tempo de processo se o tipo do processo for CPU
